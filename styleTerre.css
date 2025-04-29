@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0E1B31;
+    color: #FFF;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.background {
+    background-image: url('votre-image-de-fond.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #FFF;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #0E1B31;
+    border-bottom: 2px solid #0E1B31;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+address {
+    font-style: normal;
+}
+
+.rating {
+    font-size: 24px;
+    color: #FFD700;
+}
+
+footer {
+    background-color: #0E1B31;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+}
+#scrollUp {
+    position: fixed;
+    height: auto;
+    bottom: 40px;
+    right: 30px;
+    opacity: 1;
+}
+
+#scrollUp:hover {
+    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.35)); 
+}
+
+@keyframes fillProgress {
+    from { width: 0%; }
+}
+
+progress {
+    appearance: none;
+    border: none;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #007bff;
+    border-radius: 5px;
+    animation: fillProgress 2s ease;
+}
+
+progress::-webkit-progress-value::after {
+    content: attr(value) '%';
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    font-size: 14px;
+    color: #FFF;
+}
+
+progress::-moz-progress-bar {
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+#qualites {
+    margin-top: 20px;
+}
+
+#qualites ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#qualites li {
+    margin-bottom: 10px;
+}
+
+#about {
+    margin-bottom: 50px;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#qualites ul {
+    margin-top: 10px;
+}
+
+#qualites ul li {
+    margin-bottom: 5px;
+}
