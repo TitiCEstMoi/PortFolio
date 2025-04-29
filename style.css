@@ -126,11 +126,10 @@ main {
 .Nouveautés {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    gap: 10px;
+    gap: 1rem;
     max-width: auto;
-    margin: 0 auto;
-    margin-top: 1200px;
-    padding-bottom:100px ;
+    margin-top: 85rem;
+    padding-bottom:7rem ;
  
     justify-content: center;
     
